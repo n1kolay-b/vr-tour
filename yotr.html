@@ -10,7 +10,7 @@
 		<meta name="medium" content="mult" />
 		<meta name="video_height" content="480"></meta>
 		<meta name="video_width" content="640"></meta>
-		<link rel="image_src" href="yotrdata/thumbnail.jpg" />
+		<link rel="image_src" href="thumbnail.jpg" />
 		<!-- <meta name="directory" content="PATH/"></meta> -->
 		<!-- <link rel="target_url" href="yotr.html" /> -->
 		<meta name="generator" content="Panotour Pro V2.5.1 64bits" />
@@ -42,26 +42,26 @@
 			}
 		</style>
 				<!--[if !IE]><!-->
-		<script type="text/javascript" src="yotrdata/lib/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
 		<!--<![endif]-->
 		<!--[if lte IE 8]>
-		<script type="text/javascript" src="yotrdata/lib/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
 		<![endif]-->
 		<!--[if gt IE 8]>
-		<script type="text/javascript" src="yotrdata/lib/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
 		<![endif]-->
 
 
 		<style type="text/css">
 			div#panoDIV.cursorMoveMode {
 				cursor: move;
-				cursor: url(yotrdata/graphics/cursors_move_html5.cur), move;
+				cursor: url(graphics/cursors_move_html5.cur), move;
 			}
 			div#panoDIV.cursorDragMode {
 				cursor: grab;
 				cursor: -moz-grab;
 				cursor: -webkit-grab;
-				cursor: url(yotrdata/graphics/cursors_drag_html5.cur), default;
+				cursor: url(graphics/cursors_drag_html5.cur), default;
 			}
 		</style>
 
@@ -124,7 +124,7 @@
 				if (isWebVr) {
 					embedpano({
 						id:"krpanoSWFObject"
-						,xml:"yotrdata/yotr_vr.xml"
+						,xml:"yotr_vr.xml"
 						,target:"panoDIV"
 						,passQueryParameters:true
 						,bgcolor:"#000000"
@@ -135,7 +135,7 @@
 					embedpano({
 						id:"krpanoSWFObject"
 
-						,swf:"yotrdata/yotr.swf"
+						,swf:"yotr.swf"
 
 						,target:"panoDIV"
 						,passQueryParameters:true
@@ -175,12 +175,12 @@
 				<div id="panoDIV">
 					<noscript>
 
-						<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="yotrdata/yotr">
-							<param name="movie" value="yotrdata/yotr.swf"/>
+						<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="yotr">
+							<param name="movie" value="yotr.swf"/>
 							<param name="allowFullScreen" value="true"/>
 							<!--[if !IE]>-->
-							<object type="application/x-shockwave-flash" data="yotrdata/yotr.swf" width="100%" height="100%">
-								<param name="movie" value="yotrdata/yotr.swf"/>
+							<object type="application/x-shockwave-flash" data="yotr.swf" width="100%" height="100%">
+								<param name="movie" value="yotr.swf"/>
 								<param name="allowFullScreen" value="true"/>
 								<!--<![endif]-->
 								<a href="http://www.adobe.com/go/getflash">
@@ -194,7 +194,7 @@
 					</noscript>
 				</div>
 
-				<script type="text/javascript" src="yotrdata/yotr.js"></script>
+				<script type="text/javascript" src="yotr.js"></script>
 				<script type="text/javascript">
 					if (isVRModeRequested()){
 						accessWebVr();
